@@ -1,0 +1,58 @@
+JSON
+1. Создать внешний репозиторий c названием JSON.
+2. Клонировать репозиторий JSON на локальный компьютер.
+3. Внутри локального JSON создать файл “new.json”.
+4. Добавить файл под гит.
+5. Закоммитить файл.
+6. Отправить файл на внешний GitHub репозиторий.
+7. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст). Всё написать в формате JSON.
+8. Отправить изменения на внешний репозиторий.
+9. Создать файл duration_of_study.json
+10. В файл duration_of_study добавить информацию (продолжительность обучения) в формате JSON.
+11. Создать файл training_program.json добавить информацию о курсе в формате JSON
+12. Отправить сразу 2 файла на внешний репозиторий.
+13. На веб интерфейсе создать файл bug_report.json.
+14. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+15. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
+16. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+17. Синхронизировать внешний и локальный репозиторий JSON
+
+Как отправить ДЗ на проверку.
+18. Создайте файл GR_27_2_2.json.
+19. Сценарий перенесите в этот файл (на против каждого действия - напишите команду в GitBash)
+20. Добавить файл под гит.
+21. Закоммитить файл.
+22. Отправить файл на внешний GitHub репозиторий.
+
+
+
+JSON
+1.New repository 
+Repository name				homework_2_JSON
+2.git clone https://github.com/IsaevEvgeniy/homework_2_JSON.git
+3.touch new.json
+4.git add new.json
+5.git commit -m "release v1"
+6.git push
+7.nano new.json
+git add new.json
+8.git commit -m "release v2"
+git push
+9.touch duration_of_study.json
+10.nano duration_of_study.json
+11.touch training_program.json
+nano training_program.json
+12.git add duration_of_study.json training_program.json
+git commit -m "release v3"
+13.add file bug_report.json.
+14.commit changer (зафиксировать новый файл) Browse files (отменить)
+15.go to file			edit this file	
+16.commit changer (зафиксировать новый файл) Browse files (отменить изменения)
+17.git pull
+
+Как отправить ДЗ на проверку.
+18.touch GR_27_2_2.json
+19.nano GR_27_2_2.json
+20.git add GR_27_2_2.json
+21.git commit -m "release v6".
+22.git push.
